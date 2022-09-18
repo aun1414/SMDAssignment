@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:weightSum="6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/musifyLogo1"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/musifyLogo1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="Sign in"
+            android:textColor="#FF9800"
+            android:textAlignment="center"
+            android:layout_alignBottom="@+id/musifyLogo1"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Musify"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/formbackground" />
+
+            <ImageButton
+                android:id="@+id/button1"
+                android:layout_width="41dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/editText1"
+                android:layout_alignRight="@+id/editText1"
+                android:layout_alignBottom="@+id/editText1"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="330dp"
+                android:layout_marginBottom="3dp"
+                android:src="@drawable/facebook4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="103dp"
+                android:layout_marginLeft="184dp"
+                android:textColor="#FFFF9800"
+                android:layout_marginTop="19dp"
+                android:layout_toEndOf="@id/button1"
+                android:text="Continue with facebook"
+                android:textSize="20dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/formbackground" />
+
+            <ImageButton
+                android:id="@+id/button2"
+                android:layout_width="41dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/editText2"
+                android:layout_alignRight="@+id/editText2"
+                android:layout_alignBottom="@+id/editText2"
+                android:layout_marginTop="6dp"
+
+                android:layout_marginRight="330dp"
+                android:layout_marginBottom="3dp"
+                android:src="@drawable/google4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="103dp"
+                android:layout_marginLeft="184dp"
+                android:layout_marginTop="19dp"
+                android:textColor="#FFFF9800"
+                android:layout_toEndOf="@id/button2"
+                android:text="Continue with Google"
+                android:textSize="20dp"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/formbackground" />
+
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create Account"
+                android:textColor="#FFFF9800"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

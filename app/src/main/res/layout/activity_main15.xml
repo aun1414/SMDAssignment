@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:weightSum="4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skip"
+            android:layout_alignParentLeft="true"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FF9800">
+
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:text="Select Playlist"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_alignParentRight="true"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FF9800">
+
+        </Button>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="-150dp"
+        android:src="@drawable/rect15">
+
+    </ImageView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <ImageButton
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="78dp"
+                android:layout_height="77dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="50dp"
+                android:layout_alignParentRight="true"
+
+                android:src="@drawable/plusOne15">
+
+            </ImageButton>
+
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="80dp"
+        android:background="@color/cardview_dark_background">
+
+        <ImageButton
+            android:id="@+id/heart"
+            android:layout_width="51dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/heart5">
+
+        </ImageButton>
+
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/plus5">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/search5">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/clock5">
+
+        </ImageButton>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+

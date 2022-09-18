@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:weightSum="5"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/back1"
+            android:layout_width="87dp"
+            android:layout_height="96dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/back18">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/back1"
+            android:text="Profile"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp" />
+
+        <ImageButton
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="-4dp"
+            android:src="@drawable/pen22"
+            android:textColor="#FF9800"
+            android:textSize="20dp">
+
+        </ImageButton>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_weight="1"
+        android:src="@drawable/profile8">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textAlignment="center"
+            android:textColor="#FF9800"
+            android:textSize="20dp">
+
+        </TextView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textAlignment="center"
+            android:textColor="#FF9800"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Playlists"
+            android:textAlignment="center"
+            android:textColor="#FF9800"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Songs"
+            android:textAlignment="center"
+            android:textColor="#FF9800"
+            android:textSize="20dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="80dp"
+        android:background="@color/cardview_dark_background">
+
+        <ImageButton
+            android:id="@+id/heart"
+            android:layout_width="51dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/heart5">
+
+        </ImageButton>
+
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/plus5">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/search5">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/clock5">
+
+        </ImageButton>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+

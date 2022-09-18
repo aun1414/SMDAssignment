@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:weightSum="4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/back1"
+            android:layout_width="87dp"
+            android:layout_height="96dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/back18">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/back1"
+            android:layout_marginLeft="60dp"
+            android:layout_weight="1"
+            android:text="Liked"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp">
+
+            <requestFocus />
+        </TextView>
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bar19">
+        </ImageView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/despacito2"
+                android:layout_width="156dp"
+                android:layout_height="143dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/playlist5">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Playlist 1"
+                android:layout_toRightOf="@+id/despacito2"
+                android:textColor="#FF9800"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Artist"
+                android:layout_toRightOf="@+id/despacito2"
+                android:textColor="#FF9800"
+                android:layout_marginTop="70dp"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:text="Tracks:8"
+                android:layout_toRightOf="@+id/despacito2"
+                android:textColor="#FF9800"
+                android:layout_marginTop="70dp"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <ImageButton
+                android:layout_width="56dp"
+                android:layout_height="48dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/dots16" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/despacito3"
+                android:layout_width="156dp"
+                android:layout_height="143dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/playlist5">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Playlist 2"
+                android:layout_toRightOf="@+id/despacito3"
+                android:textColor="#FF9800"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Artist"
+                android:layout_toRightOf="@+id/despacito3"
+                android:textColor="#FF9800"
+                android:layout_marginTop="70dp"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:text="Tracks:3"
+                android:layout_toRightOf="@+id/despacito3"
+                android:textColor="#FF9800"
+                android:layout_marginTop="70dp"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <ImageButton
+                android:layout_width="56dp"
+                android:layout_height="48dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/dots16" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="80dp"
+        android:background="@color/cardview_dark_background">
+
+        <ImageButton
+            android:id="@+id/heart"
+            android:layout_width="51dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/heart5">
+
+        </ImageButton>
+
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/plus5">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/search5">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="51dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/clock5">
+
+        </ImageButton>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
